@@ -13,6 +13,8 @@
 		4F015E5D1B1FEE1800059115 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F015E5C1B1FEE1800059115 /* Images.xcassets */; };
 		4F015E601B1FEE1800059115 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F015E5E1B1FEE1800059115 /* LaunchScreen.xib */; };
 		4F015E6C1B1FEE1800059115 /* MyClassRosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F015E6B1B1FEE1800059115 /* MyClassRosterTests.swift */; };
+		4F015ED51B2D146500059115 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F015ED41B2D146500059115 /* DetailViewController.swift */; };
+		4F015ED71B2D16F500059115 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F015ED61B2D16F500059115 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 		4F015E651B1FEE1800059115 /* MyClassRosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyClassRosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F015E6A1B1FEE1800059115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F015E6B1B1FEE1800059115 /* MyClassRosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClassRosterTests.swift; sourceTree = "<group>"; };
+		4F015ED41B2D146500059115 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4F015ED61B2D16F500059115 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		4F015ED81B2E242900059115 /* MyPokemonDemo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPokemonDemo.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				4F015E551B1FEE1800059115 /* AppDelegate.swift */,
-				4F015E571B1FEE1800059115 /* ViewController.swift */,
-				4F015E591B1FEE1800059115 /* Main.storyboard */,
+				4F015E771B1FFBF900059115 /* Models */,
+				4F015E751B1FF65700059115 /* Controllers */,
+				4F015E761B1FF67000059115 /* Views */,
 				4F015E5C1B1FEE1800059115 /* Images.xcassets */,
 				4F015E5E1B1FEE1800059115 /* LaunchScreen.xib */,
 				4F015E531B1FEE1800059115 /* Supporting Files */,
@@ -110,6 +116,32 @@
 				4F015E6A1B1FEE1800059115 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F015E751B1FF65700059115 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F015E571B1FEE1800059115 /* ViewController.swift */,
+				4F015ED41B2D146500059115 /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4F015E761B1FF67000059115 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F015E591B1FEE1800059115 /* Main.storyboard */,
+				4F015ED81B2E242900059115 /* MyPokemonDemo.playground */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4F015E771B1FFBF900059115 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F015ED61B2D16F500059115 /* Person.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +244,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F015ED51B2D146500059115 /* DetailViewController.swift in Sources */,
 				4F015E581B1FEE1800059115 /* ViewController.swift in Sources */,
+				4F015ED71B2D16F500059115 /* Person.swift in Sources */,
 				4F015E561B1FEE1800059115 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +443,7 @@
 				4F015E711B1FEE1800059115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F015E721B1FEE1800059115 /* Build configuration list for PBXNativeTarget "MyClassRosterTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +452,7 @@
 				4F015E741B1FEE1800059115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
