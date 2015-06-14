@@ -40,7 +40,7 @@
 		4F015E6B1B1FEE1800059115 /* MyClassRosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClassRosterTests.swift; sourceTree = "<group>"; };
 		4F015ED41B2D146500059115 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4F015ED61B2D16F500059115 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		4F015ED81B2E242900059115 /* MyPokemonDemo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPokemonDemo.playground; sourceTree = "<group>"; };
+		4F015ED91B2E271600059115 /* MyPokemonDemo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPokemonDemo.playground; path = MyClassRoster/MyPokemonDemo.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +64,7 @@
 		4F015E471B1FEE1700059115 = {
 			isa = PBXGroup;
 			children = (
+				4F015ED91B2E271600059115 /* MyPokemonDemo.playground */,
 				4F015E521B1FEE1800059115 /* MyClassRoster */,
 				4F015E681B1FEE1800059115 /* MyClassRosterTests */,
 				4F015E511B1FEE1800059115 /* Products */,
@@ -131,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				4F015E591B1FEE1800059115 /* Main.storyboard */,
-				4F015ED81B2E242900059115 /* MyPokemonDemo.playground */,
 			);
 			name = Views;
 			sourceTree = "<group>";
