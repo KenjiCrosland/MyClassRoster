@@ -13,7 +13,6 @@ class DetailViewController: UIViewController {
   var person: Person!
 
   @IBOutlet weak var firstNameLabel: UILabel!
-  
   @IBOutlet weak var lastNameLabel: UILabel!
   
     override func viewDidLoad() {
