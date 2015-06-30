@@ -50,7 +50,7 @@ func attackPokemon(attackedPokemon:Pokemon, attackType: String, baseDamage: Int)
   }
   if attackedPokemon.type == vulnerableEnemyType {
     attackedPokemon.health -= (baseDamage * 2)
-    attackedPokemon.status = "The attack was super effective! \(attackedPokemon.theClassName) received \(baseDamage * 2) damage.\(attackedPokemonName) now has \(attackedPokemon.health) health."
+    attackedPokemon.status = "The attack was super effective! \(attackedPokemon.theClassName) received \(baseDamage * 2) damage. \(attackedPokemonName) now has \(attackedPokemon.health) health."
   }
   else {
     attackedPokemon.health -= baseDamage

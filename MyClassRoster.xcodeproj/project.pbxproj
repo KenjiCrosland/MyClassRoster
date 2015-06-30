@@ -15,6 +15,8 @@
 		4F015E6C1B1FEE1800059115 /* MyClassRosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F015E6B1B1FEE1800059115 /* MyClassRosterTests.swift */; };
 		4F015ED51B2D146500059115 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F015ED41B2D146500059115 /* DetailViewController.swift */; };
 		4F015ED71B2D16F500059115 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F015ED61B2D16F500059115 /* Person.swift */; };
+		4FDFDDDB1B3F078100E7DBA7 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFDDDA1B3F078100E7DBA7 /* PersonCell.swift */; };
+		4FDFDDDD1B3F785C00E7DBA7 /* People.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFDDDC1B3F785C00E7DBA7 /* People.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		4F015ED41B2D146500059115 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4F015ED61B2D16F500059115 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		4F015ED91B2E271600059115 /* MyPokemonDemo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPokemonDemo.playground; path = MyClassRoster/MyPokemonDemo.playground; sourceTree = "<group>"; };
+		4FDFDDDA1B3F078100E7DBA7 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		4FDFDDDC1B3F785C00E7DBA7 /* People.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = People.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				4F015E541B1FEE1800059115 /* Info.plist */,
+				4FDFDDDC1B3F785C00E7DBA7 /* People.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 		4F015E761B1FF67000059115 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4FDFDDDA1B3F078100E7DBA7 /* PersonCell.swift */,
 				4F015E591B1FEE1800059115 /* Main.storyboard */,
 			);
 			name = Views;
@@ -227,6 +233,7 @@
 				4F015E5B1B1FEE1800059115 /* Main.storyboard in Resources */,
 				4F015E601B1FEE1800059115 /* LaunchScreen.xib in Resources */,
 				4F015E5D1B1FEE1800059115 /* Images.xcassets in Resources */,
+				4FDFDDDD1B3F785C00E7DBA7 /* People.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F015ED51B2D146500059115 /* DetailViewController.swift in Sources */,
+				4FDFDDDB1B3F078100E7DBA7 /* PersonCell.swift in Sources */,
 				4F015E581B1FEE1800059115 /* ViewController.swift in Sources */,
 				4F015ED71B2D16F500059115 /* Person.swift in Sources */,
 				4F015E561B1FEE1800059115 /* AppDelegate.swift in Sources */,
